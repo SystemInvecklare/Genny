@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+	maven { url "https://jitpack.io" }
+    jcenter()
+}
+
+dependencies {
+	api 'com.github.MattiasSelinEyevinn:LineWriter:1.1.3'
+}
